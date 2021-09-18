@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<style>
+#filelist tr:nth-child(even){background-color: #f2f2f2;}
+
+#filelist tr:hover {background-color: #ddd;}
+</style>
+</head>
+
+<body>
+<h1>Github Repository Contents: testrep</h1>
+
+<div>
+   
+	 <button type="submit" class="searchButton">
+			Get Files
+     </button>	
+	 <br>
+	 <br>
+	 <div>
+	<table id="filelist" class="table">
+		<tr>
+		<th class="th">Name</th>
+		<th class="th">Size</th>
+		<th class="th">Link to Download</th></tr>
+	</table>
+	</div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
